@@ -5,13 +5,15 @@ body {
 
 .container {
 	display: grid;
-  	grid-template-rows: 50px 300px 400px 400px;
+  	grid-template-rows: 50px 400px 400px 150px 750px;
   	grid-template-columns: 0px 1fr 1fr 0px;
   	grid-gap: 5px;
-  	min-width: 100%;
+  	max-width: 75%;
+  	min-width: 60px;
   	align-content: center;
   	margin: 0 auto;
 }
+
 
 .blob {
 	text-align: right;
@@ -21,47 +23,208 @@ body {
 }
 
 .logo {
-	border: 2px dashed black;
 	grid-row: 1;
 	grid-column: 2;
-
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+	padding-left: 65px;
+	padding-top: 50px;
+	font-size: 45px;
+	text-decoration: underline;
 
 }
 
 .nav {
-	border: 2px solid black;
 	grid-column: 3;
 	grid-row: 1;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: right;
+	padding-right: 50px;
+	color: white;
+	word-spacing: 2em;
+	font-size: 12px;
+	padding-top: 10px
 
 
 }
 .header {
-	border: 2px solid blue;
 	grid-column: 2;
 	grid-row: 2;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 70px;
 
 }
 
 
 .lady {
-	border: 2px solid red;
 	grid-row: 2;
 	grid-column: 3;
 	text-align: center;
 	padding-top: 15px;
+	padding-left: 40px;
 	
 }
 
 .iphone-header {
-	border: 2px dashed red;
 	grid-column: 2;
 	grid-row: 3;
+	padding-top: 50px;
+	text-align: center;
+	padding-left: 50px;
 }
 
 .bio {
-	border: 2px dotted green;
 	grid-column: 3;
 	grid-row: 3;
 	background-image: url("img/bio-background.png");
 	background-size: cover;
+	font-family:'Source Sans Pro', sans-serif;
+	padding: 40px;
+
 }
+
+button {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	color: gray;
+}
+
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 35px;
+	padding: 25px;
+	padding-top: 0px;
+}
+
+.OS {
+	color: #9a43cc;
+	font-size: 12px;
+}
+
+.services {
+	grid-row: 4;
+	grid-column: 2 / span 3;
+
+	padding-left: 45px;
+}
+
+
+.six-block {
+
+	grid-row: 5;
+	grid-column: 2 / span 3;
+	padding: 0px;
+	background-image: url("img/Group 1238.png");
+	background-size: cover;
+	background-repeat: none;
+	
+}
+
+.first-3, .second-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 30px;
+	
+	
+}
+
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+}
+.social-media-manage, .social-growth, .branding {
+	height: 250px;
+	width: 250px;
+	padding: 15px;
+	border-radius: 15px;
+	font-size: 14px;
+	box-shadow: 1px 1px 5px;
+	background-color: white;
+
+
+}
+
+.influ, .paid-ad, .content {
+	height: 250px;
+	width: 250px;
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px;
+	background-color: white;
+
+
+}
+
+button {
+	padding: 3px;
+	justify-content: right;
+	background-color: #9a43cc;
+	color: white;
+	font-family: font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px;
+	border-radius: 30px;
+	font-size: 10px;
+	line-height: 1.5em;
+	box-shadow: 3px 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
