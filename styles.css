@@ -5,11 +5,11 @@ body {
 
 .container {
 	display: grid;
-  	grid-template-rows: 50px 400px 400px 150px 750px;
+  	grid-template-rows: 50px 550px 400px 150px 750px;
   	grid-template-columns: 0px 1fr 1fr 0px;
-  	grid-gap: 5px;
-  	max-width: 75%;
-  	min-width: 60px;
+  	grid-gap: 0px;
+  	max-width: 100%;
+ 
   	align-content: center;
   	margin: 0 auto;
 }
@@ -81,7 +81,10 @@ body {
 	background-image: url("img/bio-background.png");
 	background-size: cover;
 	font-family:'Source Sans Pro', sans-serif;
-	padding: 40px;
+	padding: 50px;
+	text-align: left;
+	width: 500px;
+	padding-left: 80px;
 
 }
 
