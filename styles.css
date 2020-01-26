@@ -5,7 +5,7 @@ body {
 
 .container {
 	display: grid;
-  	grid-template-rows: 50px 550px 400px 150px 750px;
+  	grid-template-rows: 50px 550px 500px 200px 1200px 200px 800px;
   	grid-template-columns: 0px 1fr 1fr 0px;
   	grid-gap: 0px;
   	max-width: 100%;
@@ -83,7 +83,7 @@ body {
 	font-family:'Source Sans Pro', sans-serif;
 	padding: 50px;
 	text-align: left;
-	width: 500px;
+	width: 80%;
 	padding-left: 80px;
 
 }
@@ -94,21 +94,21 @@ button {
 
 p {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 14px;
+	font-size: 30px;
 	color: gray;
 }
 
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 35px;
+	font-size: 30px;
 	padding: 25px;
 	padding-top: 0px;
 }
 
-.OS {
+.OS, .biography, .prici {
 	color: #9a43cc;
-	font-size: 12px;
+	font-size: 25px;
 }
 
 .services {
@@ -136,6 +136,8 @@ h1 {
 	justify-content: space-around;
 	align-items: center;
 	margin: 30px;
+	padding: 15px;
+
 	
 	
 }
@@ -148,26 +150,30 @@ h3 {
 
 h4 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
+}
+
+h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
 }
 .social-media-manage, .social-growth, .branding {
-	height: 250px;
-	width: 250px;
-	padding: 15px;
+	height: 350px;
+	width: 350px;
+	padding: 25px;
 	border-radius: 15px;
-	font-size: 14px;
-	box-shadow: 1px 1px 5px;
+	box-shadow: 1px 1px 10px 1px gray;
 	background-color: white;
-
 
 }
 
 .influ, .paid-ad, .content {
-	height: 250px;
-	width: 250px;
-	padding: 15px;
+	height: 350px;
+	width: 350px;
+	padding: 25px;
 	border-radius: 15px;
-	box-shadow: 1px 1px 5px;
+	box-shadow: 1px 1px 10px 1px gray;
 	background-color: white;
 
 
@@ -183,8 +189,61 @@ button {
 	border-radius: 30px;
 	font-size: 10px;
 	line-height: 1.5em;
-	box-shadow: 3px 3px 3px;
+	text-shadow: 1px 1px 10px white;
 }
+
+.service-icon {
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+.pricing {
+	grid-row: 7;
+	grid-column: 2 / span 3;
+	background-color: #e1cae8;
+	
+
+	
+}
+
+.price-plans {
+	margin: 30px;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	
+}
+
+.price-heading {
+	grid-row: 6;
+	grid-column: 2 / span 3;
+	text-align: center;
+	background-color: #e1cae8;
+}
+
+.gold, .plat, .silver {
+	height: 550px;
+	width: 400px;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 10px 1px gray;
+	background-color: white;
+	text-align: center;
+	margin: 35px;
+	padding: 40px;
+
+
+}
+
+
+
+
+
 
 
 
