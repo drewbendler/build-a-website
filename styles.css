@@ -32,7 +32,7 @@ body {
 	padding-left: 65px;
 	padding-top: 50px;
 	font-size: 45px;
-	text-decoration: underline;
+
 
 }
 
@@ -55,6 +55,7 @@ body {
 	font-weight: bold;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 70px;
+	padding-left: 40px;
 
 }
 
@@ -320,6 +321,91 @@ ul {
 
 }
 
+
+@media screen and (max-width: 1350px) {
+
+	.container {
+		grid-template-rows: 120px 600px 700px 150px 4200px 200px 900px 300px 100px 300px 500px;
+	}
+
+.logo {
+	font-size: 80px;
+
+}
+
+.header {
+	padding: 25px;
+
+}
+.bio {
+	padding: 55px;
+	padding-top: 0px;
+	font-size: 55px;
+}
+
+.first-3, .second-3 {
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 2000px;
+
+}
+
+.social-media-manage, .social-growth, .branding, .influ, .paid-ad, .content  {
+	width: 900px;
+	height: 550px;
+}
+
+ h3 {
+	font-size: 45px;
+}
+h4 {
+	font-size: 35px;
+}
+
+.service-icon {
+	text-align: left;
+	padding: 10px;
+
+}
+
+.services {
+	text-align: left;
+}
+
+button {
+	padding: 20px;
+	font-size: 25px;
+}
+
+footer {
+	font-size: 30px;
+}
+}
+
+@media screen and (min-width: 2500px) {
+	.container {
+		width:70%;
+		grid-template-rows: 120px 600px 700px 150px 1500px 200px 900px 300px 100px 300px 500px;
+	}
+
+h1 {
+	font-size: 55px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+
+.social-media-manage, .social-growth, .branding, .influ, .paid-ad, .content  {
+	width: 450px;
+	height: 500px;
+}
+
+
+
+}
 
 
 
